@@ -1,4 +1,4 @@
-# advent-of-code-2020 Downloader
+# (A)dvent (O)f (C)ode 2020 Downloader
 
 This is a quick little download script I wrote to help automate the task of downloading inputs for Advent of Code
 Prequesites: python's requests module
