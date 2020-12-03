@@ -17,3 +17,8 @@ You can find what your session cookie is by:
 * For Firefox: Scroll down to subsection labeled 'Request Headers' and there should be a tag in there called 'Cookie'. Copy everything after the colon.
 
 There's your cookie! Hold on to it and don't eat it till the holidays are over!
+
+For usage, peek inside of aoc.py!
+
+Author:
+Jack Champagne
