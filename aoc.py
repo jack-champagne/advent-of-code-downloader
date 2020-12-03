@@ -45,7 +45,7 @@ else:
 
 output = open(str(day) + '.txt', 'w')
 
-session_cookie = open('my-cookie.txt' , 'r').readline() # PUT YOUR COOKIE HERE IF YOU LIKE LIKE SO OR PUT IN FIRST LINE OF FILE: 'session=641AE5.....'
+session_cookie = open('my-cookie.txt' , 'r').readline() # PUT YOUR COOKIE HERE IF YOU LIKE LIKE SO OR PUT IN FIRST LINE OF FILE: '_ga=GA1.2.102....'
 my_headers = {'Cookie' : session_cookie}
 
 puzzle_text = requests.get('https://adventofcode.com/2020/day/' + str(day) + '/input', headers=my_headers).text
